@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- to hide the path, it is usually wrapped in a <defs> element -->
+  <!-- <defs> -->
+
+  <path
+    id="curve"
+    fill="none"
+    stroke="none"
+    d="M250 22.5C124.4 22.5 22.5 124.4 22.5 250S124.4 477.5 250 477.5 477.5 375.6 477.5 250c0-125.1-101-226.7-226-227.5H250" />
+  <text width="100" class="text">
+    <textPath href="#curve">- Contacto - Contacto - Contacto </textPath>
+  </text>
+</svg>

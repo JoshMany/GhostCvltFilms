@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: UrbanistBold;
+  src: url(/fonts/Urbanist/Urbanist-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: UrbanistRegular;
+  src: url(/fonts/Urbanist/Urbanist-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: UrbanistSemibold;
+  src: url(/fonts/Urbanist/Urbanist-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: UrbanistLight;
+  src: url(/fonts/Urbanist/Urbanist-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: CooperHewittBook;
+  src: url(/fonts/CooperHewitt/CooperHewitt-Book.otf) format("truetype");
+}
+@font-face {
+  font-family: CooperHewittMedium;
+  src: url(/fonts/CooperHewitt/CooperHewitt-Medium.otf) format("truetype");
+}
+@font-face {
+  font-family: CooperHewittHeavy;
+  src: url(/fonts/CooperHewitt/CooperHewitt-Heavy.otf) format("truetype");
+}
+
+body {
+  background: rgb(12, 12, 12);
+  background-image: url(./assets/noise2.png);
+}
