@@ -25,6 +25,7 @@
     "react-fitty": "^1.0.1",
     "react-router-dom": "^6.14.2",
     "react-scale-text": "^1.2.2",
+    "react-youtube": "^10.1.0",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
