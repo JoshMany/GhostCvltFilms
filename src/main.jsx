@@ -5,6 +5,7 @@ import "./index.css";
 import "normalize.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Work from "./routes/Work.jsx";
+import About from "./routes/About.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <h1>About</h1>,
+    element: <About />,
   },
 ]);
 
