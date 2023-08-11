@@ -23,18 +23,18 @@ function Home() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative h-full">
         <Topbar />
         <Hero />
         <Divider text={"JOIN THE CVLT"} />
         <Services />
-        <div className="mx-8 mt-8 mb-8 flex flex-col">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-center">
-            <p className="text-white text-3xl font-CooperHewittBook text-left uppercase align-text-bottom tracking-widest md:text-[40px] md:leading-[55px] md:w-1/2 lg:mt-12">
+        <div className="mx-8 mt-8 mb-8 flex flex-col h-full">
+          <div className="flex flex-col h-full md:flex-row md:items-center md:gap-8">
+            <p className="text-white text-3xl font-CooperHewittBook uppercase tracking-widest md:w-2/3 lg:text-[50px] lg:leading-[55px]">
               Innovating and creating trends in the audiovisual industry, we
               make simple things unforgettable.
             </p>
-            <button className="mt-4 text-white uppercase font-CooperHewittBook text-xl border border-yellow p-3 md:w-1/2 md:m-[90px] md:text-[20px] md:leading-[50px]">
+            <button className="mt-4 text-white uppercase font-CooperHewittBook text-xl border border-yellow p-3 hover:bg-yellow hover:text-black md:p-4 md:mt-0 md:w-1/2 md:h-[90px] lg:h-[150px]">
               Discover more about us
             </button>
           </div>
