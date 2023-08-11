@@ -36,7 +36,7 @@ export default function Hero() {
             <img
               src="/arrow.svg"
               alt="ArrowIcon"
-              className="bg-transparent rounded-full"
+              className="bg-transparent rounded-full border border-white"
             />
           </div>
         </div>

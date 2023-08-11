@@ -8,7 +8,7 @@ function Home() {
   const Divider = ({ text }) => {
     return (
       <>
-        <div className="bg-yellow">
+        <div className="bg-[#FDD923]">
           <Marquee>
             <p className="font-UrbanistSemibold whitespace-nowrap uppercase flex flex-row items-center text-3xl md:text-[80px] md:h-[70px] overflow-hidden">
               <p>{`${text}⠀⠀⠀`}</p>
@@ -31,7 +31,7 @@ function Home() {
         <Hero />
         <Divider text={"JOIN THE CVLT"} />
         <Services />
-        <div className="mx-8 my-12 flex flex-col">
+        <div className="mx-8 mt-8 mb-8 flex flex-col">
           <div className="flex flex-col md:flex-row md:items-center md:justify-center">
             <p className="text-white text-3xl font-CooperHewittBook text-left uppercase align-text-bottom tracking-widest md:text-[40px] md:leading-[55px] md:w-1/2 lg:mt-12">
               Innovating and creating trends in the audiovisual industry, we
