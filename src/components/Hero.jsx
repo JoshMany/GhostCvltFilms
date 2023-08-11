@@ -1,4 +1,5 @@
 import ReactCurvedText from "react-curved-text";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -17,27 +18,33 @@ export default function Hero() {
           </div>
 
           <div className="relative flex-1 flex justify-center items-center pb-12">
-            <ReactCurvedText
-              width={200}
-              height={200}
-              cx={100}
-              cy={100}
-              rx={50}
-              ry={50}
-              startOffset="0"
-              reversed={true}
-              text="CONTACT US⠀⠀CONTACT US⠀⠀"
-              textProps={{ style: { fontSize: 22 } }}
-              textPathProps={{ fill: "#fff" }}
-              tspanProps={{ dy: "-20" }}
-              ellipseProps={null}
-              svgProps={{ className: "absolute animate-spin-slow-25" }}
-            />
-            <img
-              src="/arrow.svg"
-              alt="ArrowIcon"
-              className="bg-transparent rounded-full border border-white"
-            />
+            <Link
+              to="/contact"
+              className="relative flex-1 flex justify-center items-center"
+            >
+              <ReactCurvedText
+                width={200}
+                height={200}
+                cx={100}
+                cy={100}
+                rx={50}
+                ry={50}
+                startOffset="0"
+                reversed={true}
+                text="CONTACT US⠀⠀CONTACT US⠀⠀"
+                textProps={{ style: { fontSize: 22 } }}
+                textPathProps={{ fill: "#fff" }}
+                tspanProps={{ dy: "-20" }}
+                ellipseProps={null}
+                svgProps={{ className: "absolute animate-spin-slow-25" }}
+              />
+
+              <img
+                src="/arrow.svg"
+                alt="ArrowIcon"
+                className="bg-white rounded-full w-[110px]"
+              />
+            </Link>
           </div>
         </div>
         <video
