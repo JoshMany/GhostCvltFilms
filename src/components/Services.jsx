@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react";
+import { Clapperboard } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Services() {
@@ -63,7 +63,7 @@ export default function Services() {
               className="flex flex-row gap-3 justify-end w-min whitespace-nowrap lg:text-[21px]"
             >
               See all projects
-              <ExternalLink />
+              <Clapperboard />
             </Link>
           </p>
           <div className="hidden lg:flex md:col-span-2 lg:col-span-1">
