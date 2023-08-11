@@ -10,13 +10,13 @@ export default function Hero() {
               Amazing content for amazing brands.
             </p>
           </div>
-          <div className="relative flex-1 flex justify-end">
-            <p className="text-[20px] leading-[30px] uppercase mt-4 text-right sm:mt-24 sm:w-[300px] md:mt-24">
+          <div className="relative flex-1 h-min flex justify-end">
+            <p className="text-[20px] leading-[30px] uppercase mt-4 text-right sm:mt-24 sm:w-[300px] md:mt-24 align-middle">
               We are a production company located in mexico city
             </p>
           </div>
 
-          <div className="relative flex-1 flex self-center justify-center items-center">
+          <div className="relative flex-1 flex justify-center items-center pb-12">
             <ReactCurvedText
               width={200}
               height={200}
