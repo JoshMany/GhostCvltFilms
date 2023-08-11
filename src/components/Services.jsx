@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   const ProjectElement = ({ title, type, pathImg, path }) => {
@@ -57,13 +58,13 @@ export default function Services() {
             />
           </div>
           <p className="text-yellow font-UrbanistSemibold text-lg mt-4 uppercase w-full flex place-content-end md:text-xl lg:place-content-start lg:my-16">
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="flex flex-row gap-3 justify-end w-min whitespace-nowrap lg:text-[21px]"
             >
               See all projects
               <ExternalLink />
-            </a>
+            </Link>
           </p>
           <div className="hidden lg:flex md:col-span-2 lg:col-span-1">
             <div className="flex flex-col items-stretch self-center">
