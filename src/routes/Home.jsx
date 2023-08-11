@@ -8,12 +8,9 @@ function Home() {
   const Divider = ({ text }) => {
     return (
       <>
-        <div className="bg-[#FDD923]">
+        <div className="bg-[#FDD923] flex justify-start items-center sm:h-[50px] md:h-[60px]">
           <Marquee>
-            <p className="font-UrbanistSemibold whitespace-nowrap uppercase flex flex-row items-center text-3xl md:text-[80px] md:h-[70px] overflow-hidden">
-              <p>{`${text}⠀⠀⠀`}</p>
-              <p>{`${text}⠀⠀⠀`}</p>
-              <p>{`${text}⠀⠀⠀`}</p>
+            <p className="font-UrbanistSemibold whitespace-nowrap uppercase flex flex-row items-center text-3xl sm:text-[40px] md:text-[60px] md:h-[70px] overflow-hidden">
               <p>{`${text}⠀⠀⠀`}</p>
               <p>{`${text}⠀⠀⠀`}</p>
               <p>{`${text}⠀⠀⠀`}</p>
