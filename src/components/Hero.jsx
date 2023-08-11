@@ -11,7 +11,7 @@ export default function Hero() {
             </p>
           </div>
           <div className="w-full md:flex-1 flex justify-end items-end">
-            <p className="font-normal text-[30px] leading-[30px] uppercase mt-12 text-right sm:mt-24 sm:w-[300px] md:mt-24">
+            <p className="font-sm text-[30px] leading-[30px] uppercase mt-12 text-right sm:mt-24 sm:w-[300px] md:mt-24">
               We are a production company located in mexico city
             </p>
           </div>
