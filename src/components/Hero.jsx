@@ -50,9 +50,9 @@ export default function Hero() {
           autoPlay
           loop
           muted
-          className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          className="absolute z-10 w-auto min-w-full min-h-full max-w-none -translate-x-1/2 left-1/2 "
         >
-          <source src="/video.mp4" type="video/mp4" />
+          <source src="/ghostvideo.mp4" type="video/mp4" />
         </video>
       </header>
     </>

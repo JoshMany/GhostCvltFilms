@@ -1,6 +1,7 @@
 import Topbar from "../components/Topbar";
 import Footer from "../components/Footer";
 import Marquee from "react-fast-marquee";
+import { Textfit } from "react-textfit";
 
 function About() {
   const Divider = ({ text }) => {
@@ -26,28 +27,26 @@ function About() {
     <>
       <div className="relative">
         <Topbar />
-        <div className="pt-16 mx-8">
-          <h1 className="text-yellow font-UrbanistSemibold uppercase text-[50px]">
-            About the cvlt
-          </h1>
-          <p className="text-white uppercase font-CooperHewittMedium text-3xl mb-12 tracking-wider leading-normal align-baseline">
-            Welcome to <b className="text-yellow ">Ghost Cvlt</b>, where
-            imagination finds its cinematic home. We&apos;re a collective of
-            visual storytellers, merging the art of filmmaking with the magic of
-            storytelling. Behind our enigmatic doors, filmmakers, designers, and
-            sound artists unite, driven by a shared purpose: to break the
-            boundaries of imagination. With each project, we weave emotion and
-            creativity into visual tapestries, turning concepts into
-            masterpieces on screen. At <b className="text-yellow">Ghost Cvlt</b>
-            , we believe in the power of every frame, sound, and moment. We dive
-            into stories, challenge them, and enrich them with our distinct
-            perspective. Our commitment goes beyond visuals – we aim to forge
-            emotional connections that resonate with every viewer. We&apos;re
-            explorers of visual realms, dream weavers, and narrative masters.{" "}
-            <b className="text-yellow">Ghost Cvlt</b> isn&apos;t just a
-            production house; we&apos;re architects of immersive experiences
-            that leave indelible marks on minds and hearts. Welcome to a world
-            of unleashed creativity and emotions in motion.
+        <div className="pt-16 mx-0">
+          <div className="relative h-screen flex flex-col md:flex-row md:justify-center">
+            <div className="w-full aspect-square border my-6 text-white flex md:w-1/2 md:aspect-auto">
+              <p className="m-auto">Image</p>
+            </div>
+            <h1 className="relative flex-1 text-yellow font-UrbanistSemibold uppercase mx-8 md:w-1/2 md:self-stretch md:h-auto md:mx-4">
+              <Textfit mode="multi" className="h-full">
+                We build creative content to connect with your audience
+              </Textfit>
+            </h1>
+          </div>
+
+          <p className="relative text-white uppercase font-CooperHewittMedium text-2xl mb-12 tracking-wider leading-normal align-baseline mx-8">
+            At <b className="text-yellow">Ghost Cvlt</b>, our creative family is
+            diverse and passionate. From dedicated filmmakers and innovative
+            graphic designers to seasoned sound artists and exceptional visual
+            storytellers, everyone shares a unified vision of bringing
+            captivating stories and high-quality audiovisual content to life.
+            Our team is an eclectic mix of talents, each bringing their unique
+            perspective to weave an enriching visual narrative.
           </p>
         </div>
         <Divider text={"JOIN THE CVLT"} />
